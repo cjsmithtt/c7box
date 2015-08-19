@@ -1,0 +1,434 @@
+    1  ping google
+    2  ping google.com
+    3  sudo vim /etc/yum.repos.d/google-chrome.repo
+    4  yum info google-chrome-stable
+    5  yum -y install google-chrome-stable
+    6  sudo yum -y install google-chrome-stable
+    7  sudo yum -y --nogpg install google-chrome-stable
+    8  google-chrome &
+    9  sudo gpg --gen-key
+   10  gpg-agent --daemon
+   11  /bin/bash /usr/local/MacGPG2/libexec/shutdown-gpg-agent
+   12  sudo gpg --gen-key
+   13  /bin/bash /usr/local/
+   14  sudo yum -y install --nogpg pinentry
+   15  ls /etc/gnupg/
+   16  sudo ls /etc/gnupg/
+   17  sudo vim /etc/gnupg/gpg-agent.conf
+   18  gpg-agent --daemon
+   19  gpg-agent --restart
+   20  ps ax | grep gpg
+   21  service gpg-agent restart
+   22  sudo service gpg-agent restart
+   23  sudo gpg --gen-key
+   24  sudo shutdown -r now
+   25  sudo reboot -h now
+   26  sudo shutdown -r no
+   27  sudo shutdown -r now
+   28  google-chrome &
+   29  ll
+   30  cd /home/csmith/
+   31  ll
+   32  cd Downloads/
+   33  ll
+   34  tar xvf firefox-40.0.2.tar.bz2 
+   35  ll
+   36  cd firefox/
+   37  ll
+   38  firefox -V
+   39  which firefox
+   40  cd ~
+   41   mv /usr/bin/firefox /usr/bin/firefox-old
+   42  sudo  mv /usr/bin/firefox /usr/bin/firefox-old
+   43  mv /home/csmith/Downloads/firefox /home/csmith/
+   44  ll /home/csmith/
+   45  sudo ln -s /home/csmith/firefox /usr/bin/firefox
+   46  firefox -V
+   47  sudo firefox -V
+   48  /usr/bin/firefox
+   49  /usr/bin/firefox/firefox
+   50  /usr/bin/firefox/firefox -V
+   51  firefox/firefox &
+   52  cd /home/csmith/Downloads/
+   53  ll
+   54  rm -rf firefox-40.0.2.tar.bz2 
+   55  ll
+   56  sudo yum -y install --nogpg trillian-1.2.0.4-1.fc19.x86_64.rpm 
+   57  cd ~
+   58  sudo service iptables stop
+   59  sudo vim /etc/sysconfig/selinux 
+   60  sudo chkconfig iptables off
+   61  sudo sytemctl mask firewalld
+   62  sudo systemctl mask firewalld
+   63  sudo systemctl stop firewalld
+   64  cd /home/csmith/Downloads/
+   65  ll
+   66  tar xvf node-v0.12.7-linux-x64.tar.gz 
+   67  ll
+   68  cd node-v0.12.7-linux-x64/
+   69  ll
+   70  vim README.md 
+   71  ll
+   72  cd lib/
+   73  ll
+   74  cd ..
+   75  cd bin/
+   76  ll
+   77  sudo npm install plaidchat -g
+   78  sudo curl --silent --location https://rpm.nodesource.com/setup | bash -
+   79  su root
+   80  ll
+   81  cd ~
+   82  sudo npm install plaidchat -g
+   83  sudo plaidchat
+   84  google-chrome &
+   85  sudo shutdown -r now
+   86  plaidchat
+   87  ipconfig
+   88  ifconfig
+   89  ping 10.192.0.1
+   90  route
+   91  sudo vim /etc/sysconfig/network
+   92  sudo vim /etc/sysconfig/network-scripts/ifcfg-enp0s25 
+   93  sudo vim /etc/sysconfig/network-scripts/ifcfg-ens3 
+   94  sudo vim /etc/sysconfig/network
+   95  sudo mv /etc/sysconfig/network-scripts/ifcfg-enp0s25 /etc/sysconfig/network-scripts/ifcfg-CORP
+   96  sudo mv /etc/sysconfig/network-scripts/ifcfg-ens3 /etc/sysconfig/network-scripts/ifcfg-DEB
+   97  sudo vim /etc/udev/rules.d/98-kexec.rules 
+   98  ll /etc/udev/rules.d/
+   99  sudo service network restart
+  100  ifconfig
+  101  ping google.com
+  102  traceroute -n google.com
+  103  sudo shutdown -r now
+  104  ifconfig
+  105  ron -qi biosdevname
+  106  sudo vim /etc/udev/rules.d/70-persistent-net.rules
+  107  touch /etc/udev/rules.d/70-persistent-net.rules
+  108  sudo touch /etc/udev/rules.d/70-persistent-net.rules
+  109  sudo vim /etc/default/grub 
+  110  sudo grub2-mkconfig -o /boot/grub2/grub.cfg 
+  111  google-chrome &
+  112  sudo vim /etc/udev/rules.d/70-persistent-net.rules
+  113  cat /etc/sysconfig/network-scripts/ifcfg-CORP 
+  114  sudo vim /etc/udev/rules.d/70-persistent-net.rules
+  115  cat /etc/sysconfig/network-scripts/ifcfg-DEB 
+  116  sudo vim /etc/udev/rules.d/70-persistent-net.rules
+  117  sudo shutdown -r now
+  118  ifconfig
+  119  sudo vim /etc/sysconfig/network-scripts/ifcfg-CORP 
+  120  sudo vim /etc/sysconfig/network-scripts/ifcfg-DEB
+  121  sudo vim /etc/udev/rules.d/70-persistent-net.rules
+  122  sudo shutdown -r now
+  123  ifconfig
+  124  ping 172.17.250.1
+  125  route
+  126  ping 172.17.4.129
+  127  ssh csmith@172.17.250.1
+  128  sudo vim /etc/sysconfig/network-scripts/ifcfg-CORP 
+  129  sudo vim /etc/sysconfig/network
+  130  traceroute google.com
+  131  sudo vim /etc/hostname
+  132  sudo vim /etc/sysctl.conf 
+  133  sudo vim /lib/sysctl.d/sysctl.conf
+  134  sudo vim /etc/sysctl.conf 
+  135  sudo vim /lib/sysctl.d/00-system.conf 
+  136  hostname chi101209.int.tt.local
+  137  sudo hostname chi101209.int.tt.local
+  138  exit
+  139  plaidchat
+  140  plaidchat --h
+  141  plaidchat --minimize-to-tray --close-to-tray
+  142  sudo vim /root/.kde/env
+  143  ll /root/.kde
+  144  sudo ll /root/.kde
+  145  sudo ls /root/.kde
+  146  sudo cd /root/.kde
+  147  ll
+  148  ls
+  149  ll
+  150  cd /root/
+  151  sudo cd /root/
+  152  ll
+  153  sudo cd .kde
+  154  ll
+  155  where
+  156  su root
+  157  google-chrome &
+  158  sudo shutdown -r now
+  159  exit
+  160  google-chrome &
+  161  e
+  162  su root
+  163  wget http://10.192.0.20/chef/app/nxagent-3.5.0.22-1.el6.x86_64.rpm .
+  164  wget http://10.192.0.20/chef/app/nxagent-3.5.0.22-1.el6.x86_64.rpm
+  165  ll
+  166  rm -rf nxagent-3.5.0.22-1.el6.x86_64.rpm.1 
+  167  yum -y install --nogpg nxagent-3.5.0.22-1.el6.x86_64.rpm 
+  168  sudo yum -y install --nogpg nxagent-3.5.0.22-1.el6.x86_64.rpm 
+  169  vim /tmp/1
+  170  cat /tmp/1 | grep Requires: | awk -F"." '{print $1}'
+  171  cat /tmp/1 | grep Requires: | awk -F"." '{print $1}' | awk -F": " '{print $2}'
+  172  cat /tmp/1 | grep Requires: | awk -F"." '{print $1}' | awk -F": " '{print $2}' >> /tmp/2
+  173  yum -y install --nogpg `cat /tmp/2`
+  174  sudo yum -y install --nogpg `cat /tmp/2`
+  175  yum searh linX
+  176  yum searh libX
+  177  yum search libX
+  178  cd Downloads/
+  179  ll
+  180  yum -y install --nogpg nomachine_4.6.12_7_x86_64.rpm 
+  181  sudo yum -y install --nogpg nomachine_4.6.12_7_x86_64.rpm 
+  182  sudo shutdown -r now
+  183  service --status-all
+  184  sudo bvim /etc/sysconfig/network
+  185  sudo vim /etc/sysconfig/network
+  186  dmesg | grep nvidia
+  187  dmesg | grep -i nvidia
+  188  dmesg | grep -i display
+  189  dmesg
+  190  lspci
+  191  wget http://us.download.nvidia.com/XFree86/Linux-x86_64/352.30/NVIDIA-Linux-x86_64-352.30.run
+  192  yum -y install --nogpg kernel-headers kernel-devel kmds
+  193  sudo yum -y install --nogpg kernel-headers kernel-devel kmds
+  194  sudo yum -y install --nogpg dkms
+  195  sudo vim /etc/modprobe.d/blacklist.conf
+  196  ll
+  197  mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r).img.bak  
+  198  sudo mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r).img.bak  
+  199  sudo dracut -v /boot/initramfs-$(uname -r).img $(uname -r)
+  200  sudo shutdown -r now
+  201  google-chrome &
+  202  ll Downloads/
+  203  history | grep tril
+  204  trillian &
+  205  ll
+  206  cd D
+  207  cd Downloads/
+  208  ll
+  209  man tar
+  210  bunzip pidgin-2.10.11.tar.bz2 
+  211  sudo bunzip pidgin-2.10.11.tar.bz2 
+  212  yum -y install bunzip
+  213  suodo yum -y install bunzip
+  214  sudo yum -y install bunzip
+  215  tar xvf pidgin-2.10.11.tar.bz2 
+  216  ll
+  217  cd pidgin-2.10.11/
+  218  ll
+  219  less README
+  220  less INSTALL 
+  221  make
+  222  less INSTALL 
+  223  sudo make check
+  224  sudo make
+  225  ll
+  226  less README
+  227  ./configure --help
+  228  ./configure 
+  229  yum -y install --nogpg glibc
+  230  sudo yum -y install --nogpg glibc
+  231  ./configure 
+  232  sudo yum -y install pkg-config
+  233  yum update -y --nogpg
+  234  sudo yum update -y --nogpg
+  235  ./configure 
+  236  sudo yum -y install --nogpg glib
+  237  sudo yum -y install --nogpg libgtk
+  238  sudo yum -y install --nogpg libgtk2.16.0
+  239  sudo yum search libgtk
+  240  sudo yum search libglib2.0-dev
+  241  sudo yum -y install --nogpg libglib2.0-dev
+  242  yum -y install --nogpg gawk
+  243  sudo yum -y install --nogpg gawk
+  244  cd ..
+  245  wget http://ftp.gnu.org/gnu/libc/glibc-2.16.0.tar.gz
+  246  tar xvf glibc-2.16.0.tar.gz 
+  247  ll
+  248  cd glibc-2.16.0/
+  249  ll
+  250  less README 
+  251  less INSTALL 
+  252  ls
+  253  less INSTALL 
+  254  ./configure
+  255  mkdir -p glibc_build
+  256  cd glibc_build/
+  257  /home/csmith/Downloads/glibc-2.16.0/./configure
+  258  cd ..
+  259  less INSTALL 
+  260  sudo yum -y install --nogpg glib-devel
+  261  sudo yum -y install --nogpg glib-headers
+  262  less INSTALL 
+  263  which glib
+  264  sudo ll /usr/
+  265  sudo ls /usr/
+  266  sudo ls /usr/lib
+  267  mkdir -p /usr/lib/glib
+  268  sudo mkdir -p /usr/lib/glib
+  269  cd glibc_build/
+  270  ./configure --prefix=/usr/lib/glib
+  271  /home/csmith/Downloads/glibc-2.16.0/.configure --prefix=/usr/lib/glib
+  272  /home/csmith/Downloads/glibc-2.16.0/configure --prefix=/usr/lib/glib
+  273  /home/csmith/Downloads/glibc-2.16.0/make
+  274  cd ..
+  275  make
+  276  cd glibc_build/
+  277  ll
+  278  make
+  279  make install
+  280  sudo make install
+  281  cd ..
+  282  ll
+  283  cd pidgin-2.10.11/
+  284  ll
+  285  ./configure
+  286  ll
+  287  less INSTALL 
+  288  cd ~
+  289  cd /lib/usr/
+  290  cd /usr/lib
+  291  ll
+  292  ll glib/
+  293  mv -r glib glibc
+  294  sudo mv glib glibc
+  295  ll
+  296  ll glibc/
+  297  cd /home/
+  298  cd csmith/
+  299  cd Downloads/
+  300  cd pidgin-2.10.11/
+  301  ll
+  302  sudo ./configure
+  303  yum -y install epel-release && rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+  304  sudo yum -y install --nogpg epel-release && rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+  305  wget  http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+  306  yum -y install --nogpg nux-dextop-release-0-5.el7.nux.noarch.rpm
+  307  sudo yum -y install --nogpg nux-dextop-release-0-5.el7.nux.noarch.rpm
+  308  sudo yum -y install --nogpg pidgin
+  309  sudo yum -y install --nogpg pidgin-sipe
+  310  cd ~
+  311  man pidgin
+  312  pidgin &
+  313  sudo yum -y install --nogpg qemu-kvm libvirt virt-install bridge-utils
+  314  egrep -c '(vmx|svm)' /proc/cpuinfo
+  315  sudo yum -y install --nogpg kvm virt-manager libvirt virt-install qemu-kvm xauth dejavu-lgc-sans-fonts
+  316  lsmod | grep kvm
+  317  sudo vim /etc/sysctl.conf 
+  318  sudo /sbin/sysctl -p
+  319  exit
+  320  google-chrome &
+  321  pidgin &
+  322  plaidchat &
+  323  sudo nvidia-settings
+  324  sudo shutdown -r now
+  325  sudo nvidia-settings
+  326  ll Downloads/
+  327  sudo mv /etc/X11/xorg.conf /etc/X11/xorg.conf.old
+  328  sudo cp Downloads/xorg.conf /etc/X11/
+  329  ll /etc/X11/
+  330  sudo restart X
+  331  sudo X restart
+  332  sudo shutdown -r now
+  333  history 
+  334  lsmod | grep kvm
+  335  chkconfig kvm off
+  336  history
+  337  history | less
+  338  cd /etc/X11/
+  339  ll
+  340  ll xorg.conf.d/
+  341  mv xorg.conf xorg.conf.kris
+  342  sudo mv xorg.conf xorg.conf.kris
+  343  sudo mv xorg.conf.old xorg.conf
+  344  exit
+  345  nvidia-settings &
+  346  init 3
+  347  sudo init 3
+  348  Manager for Splash Screen Themes
+  349  scp -r root@10.192.2.100:/root/the_silver_searcher-0.30.0-1.el6.x86_64.rpm .
+  350  ll
+  351  the_silver_searcher-0.30.0-1.el6.x86_64.rpmthe_silver_searcher-0.30.0-1.el6.x86_64.rpmthe_silver_searcher-0.30.0-1.el6.x86_64.rpm
+  352  rm -rf core.*
+  353  ll
+  354  sudo yum -y install --nogpg the_silver_searcher.x86_64.rpm
+  355  sudo yum -y install --nogpg the_silver_searcher-0.30.0-1.el6.x86_64.rpm
+  356  scp -r root@10.192.2.100:/root/.bashrc .bashrc
+  357  ll
+  358  cat 66
+  359  rm -rf 66
+  360  ll
+  361  ls -al
+  362  scp -r root@10.192.2.100:/root/.vimrc .vimrc
+  363  scp -r root@10.192.2.100:/root/molakai-master.zip .
+  364  scp -r root@10.192.2.100:/root/molokai-master.zip .
+  365  unzip molokai-master.zip 
+  366  ll
+  367  scp -r root@10.192.2.100:/home/csmith/.chef .chef
+  368  scp -r root@10.192.2.100:/home/csmith/.git* .
+  369  vim /tmp/1
+  370  rm -rf /tmp/1
+  371  ll
+  372  source .bashrc
+  373  ping google.com
+  374  vim .bashrc 
+  375  ll
+  376  rm -rf .bashrc 
+  377  scp -r root@10.192.2.100:/home/csmith/.bashrc .bashrc
+  378  rm -rf .vimrc
+  379  scp -r root@10.192.2.100:/home/csmith/.vimrc .vimrc
+  380  source .bashrc
+  381  ifconfig
+  382  ssh root@10.192.2.100
+  383  exit
+  384  exit
+  385  sudo yum search zshell
+  386  sudo yum search zsh
+  387  sudo yum install --nogpg -y zsh
+  388  man zsh
+  389  zsh 
+  390  ssh root@10.192.2.100
+  391  ping google.com
+  392  vim /tmp/2
+  393  scp -r root@10.192.2.100:/home/csmith/.vim .
+  394  vim /tmp/2
+  395  sudo yum -y install --nogpg stow
+  396  man stow
+  397  history | grep silver
+  398  sudo yum -y install --nogpg the_silver_searcher-0.30.0-1.el6.x86_64.rpm
+  399  sudo yum search silver
+  400  yum -y install --nogpg -y the_silver_searcher
+  401  sudo yum -y install --nogpg -y the_silver_searcher
+  402  sudo yum -y install --nogpg git-all
+  403  cd /root/
+  404  cd /home/
+  405  ll
+  406  cd csmith/
+  407  ll
+  408  git clone https://github.com/zsh-users/antigen.git
+  409  ll
+  410  mv antigen/ .antigen
+  411  ll
+  412  touch .zshrc
+  413  vim .zshrc
+  414  nano .zshrc
+  415  cat .zshrc
+  416  source .zshrc
+  417  cat .antigen/antigen.zsh 
+  418  vim .antigen/antigen.zsh 
+  419  zsh
+  420  google-chrome
+  421  zsh
+  422  history
+  423  vgd
+  424  vgdisplay
+  425  sudo vgdisplay
+  426  sudo pvdisplay
+  427  sudo lvdisplay
+  428  mkdir -p isuck
+  429  history >> isuck/hist
+  430  git clone https://github.com/cjsmithtt/c7box.git
+  431  ll
+  432  ll c7box/
+  433  cd c7box/
+  434  history >> history
